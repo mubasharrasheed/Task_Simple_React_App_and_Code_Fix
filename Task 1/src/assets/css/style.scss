@@ -1,0 +1,207 @@
+body {
+  margin: 0px auto;
+}
+
+@font-face {
+  src: url("../fonts/Poppins-Bold.ttf");
+  font-family: Poppins-Bold;
+}
+
+@font-face {
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-family: Poppins-Regular;
+}
+
+th,
+td,
+tr,
+.alert,
+ul,
+p,
+a,
+span,
+::placeholder,
+.form-text {
+  font-family: Poppins-Regular, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+label,
+strong {
+  font-family: Poppins-Bold, sans-serif;
+}
+
+.list-none {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar {
+  background-color: rgb(214, 214, 214);
+
+  .navbar-brand {
+    h5 {
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.notes {
+  margin: 40px 0;
+
+  .title {
+    padding: 5px 0 20px;
+
+    h4 {
+      margin-bottom: 0;
+      color: #1a1a2e;
+      font-size: 18px;
+    }
+  }
+
+  .user_management {
+    .card {
+      background: #f8f8f8;
+      box-shadow: 20px 20px 11px rgba(0, 0, 0, 0.01),
+        11px 11px 9px rgba(0, 0, 0, 0.05), 5px 5px 7px rgba(0, 0, 0, 0.09),
+        1px 1px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 15px;
+      border: 0;
+
+      .table > :not(caption) > * > * {
+        background-color: transparent;
+        padding: 15px;
+
+        p {
+          margin-bottom: 0;
+        }
+
+        .avatar {
+          img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 100px;
+          }
+        }
+      }
+    }
+  }
+
+  .drop_search {
+    display: flex;
+    justify-content: end;
+    margin: 5px 0 15px;
+
+    .btn-group {
+      .dropdown-toggle {
+        font-family: "Nunito", sans-serif !important;
+        color: #121212;
+        border: 1px solid #e3e3e3;
+        background-color: #fff;
+        text-align: left;
+        padding-right: 30px;
+
+        &:hover {
+          background-color: #fff;
+        }
+
+        &::after {
+          position: absolute;
+          right: 10px;
+          top: 50%;
+        }
+      }
+
+      .dropdown-menu.show {
+        width: 100%;
+        padding: 5px;
+
+        .dropdown-item {
+          font-family: "Nunito", sans-serif !important;
+          color: #07070c;
+
+          &:hover {
+            background-color: #0176d3;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .form-select {
+      font-family: "Nunito", sans-serif !important;
+      color: #121212;
+      border: 1px solid #e3e3e3;
+      background-color: #fff;
+      width: 230px;
+    }
+
+    .input-group {
+      width: 255px;
+
+      input {
+        background-color: #fff;
+        border-right: 0;
+        border-color: #e3e3e3;
+        color: #121212;
+
+        &:focus {
+          border-color: #e3e3e3;
+          box-shadow: none;
+        }
+      }
+
+      button {
+        background-color: #fff;
+        border-color: #e3e3e3;
+        border-left: 0;
+
+        img {
+          width: 15px;
+          filter: brightness(0.5);
+        }
+      }
+    }
+  }
+}
+
+.btn-primary {
+  background-color: #a63b32;
+  border: 1px solid #a63b32;
+  color: #ffff;
+  padding: 7px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.btn-secondary {
+  background-color: #91cc82;
+  border: 1px solid #a6c48a;
+  color: #ffff;
+  padding: 7px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.btn-secondary:hover {
+  background-color: #629e53;
+  border: 1px solid #80a85a;
+  color: #ffff;
+  padding: 7px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #a63b32;
+  border: 1px solid #a63b32;
+  color: #fff;
+}

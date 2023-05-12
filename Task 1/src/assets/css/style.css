@@ -1,0 +1,181 @@
+body {
+  margin: 0px auto;
+}
+
+@font-face {
+  src: url("../fonts/Poppins-Bold.ttf");
+  font-family: Poppins-Bold;
+}
+@font-face {
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-family: Poppins-Regular;
+}
+::-moz-placeholder {
+  font-family: Poppins-Regular, sans-serif;
+}
+th,
+td,
+tr,
+.alert,
+ul,
+p,
+a,
+span,
+::placeholder,
+.form-text {
+  font-family: Poppins-Regular, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+label,
+strong {
+  font-family: Poppins-Bold, sans-serif;
+}
+
+.list-none {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar {
+  background-color: rgb(214, 214, 214);
+}
+.navbar .navbar-brand h5 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.notes {
+  margin: 40px 0;
+}
+.notes .title {
+  padding: 5px 0 20px;
+}
+.notes .title h4 {
+  margin-bottom: 0;
+  color: #1a1a2e;
+  font-size: 18px;
+}
+.notes .user_management .card {
+  background: #f8f8f8;
+  box-shadow: 20px 20px 11px rgba(0, 0, 0, 0.01), 11px 11px 9px rgba(0, 0, 0, 0.05), 5px 5px 7px rgba(0, 0, 0, 0.09), 1px 1px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  border: 0;
+}
+.notes .user_management .card .table > :not(caption) > * > * {
+  background-color: transparent;
+  padding: 15px;
+}
+.notes .user_management .card .table > :not(caption) > * > * p {
+  margin-bottom: 0;
+}
+.notes .user_management .card .table > :not(caption) > * > * .avatar img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100px;
+}
+.notes .drop_search {
+  display: flex;
+  justify-content: end;
+  margin: 5px 0 15px;
+}
+.notes .drop_search .btn-group .dropdown-toggle {
+  font-family: "Nunito", sans-serif !important;
+  color: #121212;
+  border: 1px solid #e3e3e3;
+  background-color: #fff;
+  text-align: left;
+  padding-right: 30px;
+}
+.notes .drop_search .btn-group .dropdown-toggle:hover {
+  background-color: #fff;
+}
+.notes .drop_search .btn-group .dropdown-toggle::after {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+}
+.notes .drop_search .btn-group .dropdown-menu.show {
+  width: 100%;
+  padding: 5px;
+}
+.notes .drop_search .btn-group .dropdown-menu.show .dropdown-item {
+  font-family: "Nunito", sans-serif !important;
+  color: #07070c;
+}
+.notes .drop_search .btn-group .dropdown-menu.show .dropdown-item:hover {
+  background-color: #0176d3;
+  color: #fff;
+}
+.notes .drop_search .form-select {
+  font-family: "Nunito", sans-serif !important;
+  color: #121212;
+  border: 1px solid #e3e3e3;
+  background-color: #fff;
+  width: 230px;
+}
+.notes .drop_search .input-group {
+  width: 255px;
+}
+.notes .drop_search .input-group input {
+  background-color: #fff;
+  border-right: 0;
+  border-color: #e3e3e3;
+  color: #121212;
+}
+.notes .drop_search .input-group input:focus {
+  border-color: #e3e3e3;
+  box-shadow: none;
+}
+.notes .drop_search .input-group button {
+  background-color: #fff;
+  border-color: #e3e3e3;
+  border-left: 0;
+}
+.notes .drop_search .input-group button img {
+  width: 15px;
+  filter: brightness(0.5);
+}
+
+.btn-primary {
+  background-color: #a63b32;
+  border: 1px solid #a63b32;
+  color: white;
+  padding: 7px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.btn-secondary {
+  background-color: #91cc82;
+  border: 1px solid #a6c48a;
+  color: white;
+  padding: 7px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.btn-secondary:hover {
+  background-color: #629e53;
+  border: 1px solid #80a85a;
+  color: white;
+  padding: 7px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #a63b32;
+  border: 1px solid #a63b32;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
